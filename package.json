@@ -1,0 +1,36 @@
+{
+  "name": "@easyname/sdk",
+  "version": "0.0.1",
+  "description": "easyname - NODEJS SDK ==================",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w",
+    "test": "t",
+    "calls": "calls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyname/js-sdk.git"
+  },
+  "keywords": [
+    "easyname",
+    "rest",
+    "api",
+    "domain",
+    "hosting",
+    "webspace"
+  ],
+  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/easyname/js-sdk/issues"
+  },
+  "homepage": "https://github.com/easyname/js-sdk#readme",
+  "devDependencies": {
+    "@magic/test": "0.0.6"
+  },
+  "dependencies": {
+    "md5": "2.2.1"
+  }
+}
